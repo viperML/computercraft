@@ -1,5 +1,9 @@
-local util = require("_3d_util")
+local u = require("_3d_util")
 
-util.p {
-  x = "1",
-}
+local square = u.squareFromPos(10)
+
+u.pp("square", square)
+
+
+local mypos = u.position()
+u.pp("position", mypos)
